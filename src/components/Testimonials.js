@@ -6,7 +6,7 @@ function Testimonials () {
         <div className="testimonials">
             {
                 TestimonialData.map(TestimonialData => <div key={TestimonialData.id}>
-                    <img src={}
+                    <img src={Testimonials.image} alt="Testimonial Images"/>
 
                 </div>)
             }

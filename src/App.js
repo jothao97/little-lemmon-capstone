@@ -1,9 +1,14 @@
-import React, {useState} from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import Homepage from "./components/Homepage";
 import BookingHeader from "./components/BookingHeader";
 import Hero from "./components/Hero"
+import Specials from "./components/Specials";
+import About from "./components/About";
+import Footer from "./components/Footer";
+import BookingPage from "./components/BookingPage";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -11,11 +16,11 @@ function App() {
       <Homepage/>
       <Nav/>
       <Routes>
-        <Route path="/" element={<Homepage/>}></Route>
-        <Route path="/About" element={<About/>}></Route>
-        <Route path="/Menu" element={<Menu/>}></Route>
-        <Route path="/Booking" element={<BookingPage/>}></Route>
-        <Route path="/Reviews" element={<Testimonials/>}></Route>
+        <Route path="/" element={<Homepage/>}>Homepage</Route>
+        <Route path="/About" element={<About/>}>About</Route>
+        <Route path="/">Menu</Route>
+        <Route path="/Booking" element={<BookingPage/>}>Reservations</Route>
+        <Route path="/Reviews" element={<Testimonials/>}>Reviews</Route>
       </Routes>
       <BookingHeader/>
       <Hero/>

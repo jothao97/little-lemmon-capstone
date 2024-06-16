@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../images/Logotransparent.svg"
 
 function Footer () {
@@ -6,17 +7,17 @@ function Footer () {
         <footer>
             <section>
                 <div className="company-info">
-                    <img src={logo} alt=""/>
+                    <img src={logo} alt="Little Lemon Logo"/>
                     <p>A family owned mediterranean restaurant</p>
                 </div>
                 <div>
-                    <h3>Links</h3>
+                    <h3>Navigation</h3>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/About">About</a></li>
-                        <li><a href="/Menu">Menu</a></li>
-                        <li><a href="/BookingPage">Reservations</a></li>
-                        <li><a href="/">Order Online</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/About">About</Link></li>
+                        <li><Link to="/">Menu</Link></li>
+                        <li><Link to="/BookingPage">Reservations</Link></li>
+                        <li><Link to="/">Order Online</Link></li>
                     </ul>
                 </div>
                 <div>

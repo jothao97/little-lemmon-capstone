@@ -4,7 +4,7 @@ import logo from "../images/Logotransparent.svg"
 function HomePage () {
     return (
         <header>
-            <img src={logo} alt="logo"/>
+            <img src={logo} alt="Little Lemon Logo"/>
         </header>
         
     );

@@ -1,23 +1,24 @@
-import React, {useState} from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Nav () {
     return (
         <nav className="navbar">
             <ul>
                 <li className="navitem">
-                    <link to="/">Home</link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li className="navitem">
-                    <link to="/About">About</link>
+                    <Link to="/About">About</Link>
                 </li>
                 <li className="navitem">
-                    <link to="/Menu">Menu</link>
+                    <Link to="/">Menu</Link>
                 </li>
                 <li className="navitem">
-                    <link to="/BookingPage">Booking</link>
+                    <Link to="/BookingPage">Reservations</Link>
                 </li>
                 <li className="navitem">
-                    <link to="/">Order Online</link>
+                    <Link to="/">Order Online</Link>
                 </li>
             </ul>
         </nav>
