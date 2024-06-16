@@ -1,13 +1,14 @@
 import React from "react";
 import logo from "../images/Logotransparent.svg"
+import '../styling/Homepage.css';
 
-function HomePage () {
+function Homepage () {
     return (
-        <header>
-            <img src={logo} alt="Little Lemon Logo"/>
+        <header className="homepage-header">
+            <img src={logo} alt="Little Lemon Logo" className="logo"/>
         </header>
         
     );
 }
 
-export default HomePage;
+export default Homepage;

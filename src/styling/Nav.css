@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navlist {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navitem {
+    margin: 0;
+  }
+  
+  .navitem a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .navitem a:hover,
+  .navitem a.active {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  

@@ -7,8 +7,9 @@ import Hero from "./components/Hero"
 import Specials from "./components/Specials";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import BookingPage from "./components/BookingPage";
+// import BookingPage from "./components/BookingPage";
 import Testimonials from "./components/Testimonials";
+import BookingForm from "./components/BookingForm";
 
 function App() {
   return (
@@ -16,10 +17,9 @@ function App() {
       <Homepage/>
       <Nav/>
       <Routes>
-        <Route path="/" element={<Homepage/>}>Homepage</Route>
         <Route path="/About" element={<About/>}>About</Route>
         <Route path="/">Menu</Route>
-        <Route path="/Booking" element={<BookingPage/>}>Reservations</Route>
+        <Route path="/BookingForm" element={<BookingForm/>}>Reservations</Route>
         <Route path="/Reviews" element={<Testimonials/>}>Reviews</Route>
       </Routes>
       <BookingHeader/>

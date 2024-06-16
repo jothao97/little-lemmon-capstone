@@ -1,0 +1,67 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.food-image {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.heading h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.price {
+    font-size: 1rem;
+    color: #666;
+}
+
+.description {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.order-btn {
+    background-color: #f4d35e;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px 8px;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #e3c04d;
+}

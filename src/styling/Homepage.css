@@ -1,0 +1,12 @@
+.homepage-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8; /* Light background color for contrast */
+}
+
+.logo {
+    height: 3cm;
+    width: auto;
+    padding: 20px; /* Optional padding */
+}

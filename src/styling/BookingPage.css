@@ -1,0 +1,9 @@
+.booking-container {
+    max-width: 600px; /* Adjust width as per your design */
+    margin: 0 auto; /* Center align the container */
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

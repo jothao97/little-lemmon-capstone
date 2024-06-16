@@ -1,0 +1,29 @@
+.booking-header {
+    text-align: center;
+    margin: 50px;
+;
+  }
+  
+  .reservation-button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .reservation-button a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .reservation-button:hover {
+    background-color: #e6b800;
+  }
+  
+  .booking-description {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+  }
