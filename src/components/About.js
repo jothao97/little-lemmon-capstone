@@ -6,6 +6,10 @@ import '../styling/About.css';
 function About () {
     return (
         <div className="about-container">
+            <meta name="og:title" content="About Little Lemon Restaurant"/>
+            <meta name="og:description" content="Learn more about Little Lemon's background and where they get their Mediterranean inspired cuisine from"/>
+            <meta name="og:image" content={patio}/>
+            <meta name="og:image" content={chefcook}/>
             <h1>Little Lemon</h1>
             <h3>Chicago</h3>
             <p className="about-description">
