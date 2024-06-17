@@ -18,7 +18,7 @@ function Nav () {
                     <NavLink to="/">Menu</NavLink>
                 </li>
                 <li className="navitem">
-                    <NavLink to={BookingPage} >Reservations</NavLink>
+                    <NavLink to="/Reservations" element={BookingPage}>Reservations</NavLink>
                 </li>
                 <li className="navitem">
                     <NavLink to="/">Order Online</NavLink>
