@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../images/Logotransparent.svg"
 import '../styling/Footer.css';
+import BookingPage from "./BookingPage";
 
 function Footer () {
     return (
@@ -19,7 +20,7 @@ function Footer () {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/About">About</Link></li>
                         <li><Link to="/">Menu</Link></li>
-                        <li><Link to="/BookingPage">Reservations</Link></li>
+                        <li><Link to="/Reservations" element={BookingPage}>Reservations</Link></li>
                         <li><Link to="/">Order Online</Link></li>
                     </ul>
                 </nav>
